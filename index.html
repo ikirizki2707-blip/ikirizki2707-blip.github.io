@@ -3,130 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SMK ISLAM MALAHAYATI - Mencetak Bintang Masa Depan</title>
-    <link rel="stylesheet" href="style.css">
+    <title>SMK [Islam Malahayti] | Jaringan Pendidikan Masa Depan</title>
+    <link rel="stylesheet" href="tkj_style.css">
     </head>
 <body>
 
-    <header>
-        <div class="logo">
-            <img src="logo_sekolah.png" alt="Logo Sekolah Keren" width="50">
-            <h1>SMK ISLAM MALAHAYATI</h1>
+    <header class="system-bar">
+        <div class="logo-terminal">
+            <span class="prompt">>_</span>
+            <h1>SMK [Islam Malahayati] | The Core System</h1>
         </div>
         <nav class="main-nav">
             <ul>
-                <li><a href="#hero">Beranda</a></li>
-                <li><a href="#profil">Profil & Visi</a></li>
-                <li><a href="#akademik">Program Studi</a></li>
-                <li><a href="#prestasi">Prestasi</a></li>
-                <li><a href="#ppdb" class="cta-button">PPDB 2026</a></li> </ul>
+                <li><a href="#deploy-home">./home</a></li>
+                <li><a href="#access-profile">./profile</a></li>
+                <li><a href="#data-structure">./jurusan</a></li>
+                <li><a href="#network-log">./berita</a></li>
+                <li><a href="#connect-us" class="cta-button">./contact</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <section id="hero" class="hero-section">
-            <div class="hero-content">
-                <h2>Selamat Datang, Calon Pemimpin Bangsa!</h2>
-                <p>Jelajahi potensi terbaikmu bersama lingkungan pendidikan yang inovatif dan suportif.</p>
-                <a href="#ppdb" class="cta-button primary-cta">Daftar Sekarang &rarr;</a>
+        <section id="deploy-home" class="system-status-section">
+            <pre class="code-block">
+                <span class="comment"># Status Server Utama: [Nama Sekolah]</span>
+                <span class="keyword">function</span> boot_sequence() {
+                    <span class="variable">echo</span> <span class="string">"[[ SUCCESS ]] Koneksi Terjalin."</span>;
+                    <span class="variable">echo</span> <span class="string">"[[ LOADING ]] Mencetak Generasi Digital..."</span>;
+                }
+                boot_sequence();
+            </pre>
+            <div class="status-content">
+                <h2>Welcome, User. Access Granted.</h2>
+                <p>Kami adalah basis pelatihan terdepan untuk Teknik Komputer dan Jaringan (TKJ), Rekayasa Perangkat Lunak (RPL), dan Multimedia.</p>
+                <a href="#data-structure" class="cta-button primary-cta">Pilih Track (Jurusan) &rarr;</a>
             </div>
         </section>
 
-        <section id="statistik" class="stats-section">
-            <h2>Sekolah Kami dalam Angka</h2>
-            <div class="stats-grid">
-                <article>
-                    <h3>1200+</h3>
-                    <p>Siswa Aktif</p>
+        <section id="data-structure" class="module-section">
+            <h2>[ MODULES ] Program Studi Inti</h2>
+            <div class="module-grid">
+                <article class="module-card">
+                    <h3>[ TKJ ] Network & Infrastructure</h3>
+                    <p>Fokus pada Routing, Switching, Server, dan Keamanan Jaringan. Siap jadi Network Engineer.</p>
+                    <a href="tkj_detail.html" class="read-more">Deploy Module &rarr;</a>
                 </article>
-                <article>
-                    <h3>98%</h3>
-                    <p>Lulusan Diterima PTN/Kerja</p>
+                <article class="module-card">
+                    <h3>[ RPL ] Software Development</h3>
+                    <p>Menciptakan aplikasi berbasis Web dan Mobile, menguasai Database dan Algoritma Canggih.</p>
+                    <a href="rpl_detail.html" class="read-more">Deploy Module &rarr;</a>
                 </article>
-                <article>
-                    <h3>15</h3>
-                    <p>Program Ekskul Unggulan</p>
-                </article>
-            </div>
-        </section>
-
-        <section id="akademik" class="program-section">
-            <h2>Fokus Akademik Kami</h2>
-            <div class="program-cards">
-                <article class="card">
-                    <figure>
-                        <img src="icon_lab.svg" alt="Ikon Lab Komputer" width="60">
-                        <figcaption>Lab Komputer & Robotik</figcaption>
-                    </figure>
-                    <p>Fasilitas terkini untuk mengasah *skill* digital dan teknologi.</p>
-                </article>
-                <article class="card">
-                    <figure>
-                        <img src="icon_karakter.svg" alt="Ikon Pendidikan Karakter" width="60">
-                        <figcaption>Pendidikan Karakter Islami</figcaption>
-                    </figure>
-                    <p>Membentuk pribadi yang berakhlak mulia dan memiliki kepedulian sosial.</p>
-                </article>
-                <article class="card">
-                    <figure>
-                        <img src="icon_bahasa.svg" alt="Ikon Bahasa Asing" width="60">
-                        <figcaption>Program Bahasa Global</figcaption>
-                    </figure>
-                    <p>Fokus pada penguasaan Bahasa Inggris dan Mandarin untuk karir internasional.</p>
+                <article class="module-card">
+                    <h3>[ MM ] Digital Media Creator</h3>
+                    <p>Editing Video, Animasi 3D, Desain Grafis, dan Produksi Konten Kreatif Digital.</p>
+                    <a href="mm_detail.html" class="read-more">Deploy Module &rarr;</a>
                 </article>
             </div>
         </section>
 
-        <section id="testimoni" class="testimonial-section">
-            <h2>Apa Kata Mereka?</h2>
-            <blockquote cite="Nama Wali Murid">
-                <p>"Anak saya sangat betah, proses pembelajarannya menyenangkan dan kualitas gurunya sangat profesional. Sekolah ini benar-benar fokus pada potensi siswa."</p>
-                <footer>— Bpk. Andi Pratama, Wali Murid Kelas X</footer>
-            </blockquote>
-            <blockquote cite="Nama Alumni">
-                <p>"Berkat program magang yang difasilitasi sekolah, saya langsung diterima kerja di perusahaan impian setelah lulus!"</p>
-                <footer>— Sinta Dewi, Alumni Angkatan 2023</footer>
-            </blockquote>
+        <section id="hardware-stats" class="hardware-stats-section">
+            <h2>[ HARDWARE ] Fasilitas Pendukung</h2>
+            <dl class="stats-list">
+                <dt>Lab Jaringan</dt>
+                <dd>2x (Full Cisco Equipment)</dd>
+                
+                <dt>Lab Komputasi</dt>
+                <dd>3x (i7 Processor | 16GB RAM)</dd>
+                
+                <dt>Studio Multimedia</dt>
+                <dd>1x (Green Screen & Workstation Render)</dd>
+                
+                <dt>Kecepatan Internet</dt>
+                <dd>1 Gbps Dedicated Link</dd>
+            </dl>
+            <p class="warning-text">Jangan lupa backup data Anda secara rutin.</p>
         </section>
 
-        <section id="ppdb" class="cta-banner">
-            <h2>Waktunya Bergabung!</h2>
-            <p>Kuota terbatas untuk tahun ajaran baru. Jangan lewatkan kesempatan emas ini.</p>
-            <a href="form_pendaftaran.html" class="cta-button primary-cta large-cta">APPLY SEKARANG</a>
+        <section id="network-log" class="network-log-section">
+            <h2>[ NETWORK LOG ] Pemberitahuan Terbaru</h2>
+            <div class="log-entry">
+                <time datetime="2025-10-14">2025-10-14 09:00:00</time>
+                <p><span class="log-level">[ INFO ]</span> Pembaruan Sistem: Pendaftaran Gelombang 2 Dibuka.</p>
+            </div>
+            <div class="log-entry">
+                <time datetime="2025-10-13">2025-10-13 15:30:00</time>
+                <p><span class="log-level">[ ALERT ]</span> Maintenance Jaringan Lab 1: Selesai. System Operational.</p>
+            </div>
+            <div class="log-entry">
+                <time datetime="2025-10-12">2025-10-12 10:00:00</time>
+                <p><span class="log-level">[ SUCCESS ]</span> Tim E-Sport Lolos Kualifikasi Provinsi.</p>
+            </div>
+            <a href="log_archive.html" class="read-more">View All Logs &rarr;</a>
         </section>
-
     </main>
 
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-contact">
-                <h3>Hubungi Kami</h3>
+    <footer class="system-footer">
+        <div class="footer-details">
+            <div class="footer-col">
+                <h3>System Admin (Kontak)</h3>
                 <address>
-                    Jl. Kreatifitas No. 20, Kode Pos 12345<br>
-                    Kota Cerdas, Indonesia
+                    IP Address: [Alamat Sekolah]<br>
+                    Email: admin@sekolah-tkj.sch.id<br>
+                    Phone: (021) 777777 (Hotline)
                 </address>
-                <p>Telp: (021) 987654</p>
-                <p>Email: info@sekolahkeren.sch.id</p>
             </div>
-            <div class="footer-links">
-                <h3>Tautan Cepat</h3>
+            <div class="footer-col">
+                <h3>Quick Command</h3>
                 <ul>
-                    <li><a href="kebijakan.html">Kebijakan Privasi</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="karir.html">Karir Guru/Staff</a></li>
+                    <li><a href="faq.html">ping /faq</a></li>
+                    <li><a href="policy.html">cat /policy</a></li>
+                    <li><a href="galeri.html">ls /gallery</a></li>
                 </ul>
             </div>
-            <div class="footer-social">
-                <h3>Ikuti Kami</h3>
-                <a href="#"><img src="icon_instagram.svg" alt="Instagram" width="24"></a>
-                <a href="#"><img src="icon_youtube.svg" alt="YouTube" width="24"></a>
-                <a href="#"><img src="icon_tiktok.svg" alt="TikTok" width="24"></a>
-            </div>
         </div>
-        <div class="copyright">
-            <p>&copy; 2025 Sekolah Keren. Dikelola oleh Tim IT Sekolah.</p>
+        <div class="copyright-terminal">
+            <p class="prompt">>_ echo "License: Copyright &copy; 2025 The Core System."</p>
+            <p class="prompt">>_ shutdown</p>
         </div>
     </footer>
 
 </body>
-</html>
+    </html>
